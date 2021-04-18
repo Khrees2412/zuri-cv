@@ -8,8 +8,21 @@
 }
 body {
 	margin: 3rem;
+	line-height: 1.6;
 }
 section {
 	padding: 1rem;
 	margin: 2rem;
+}
+p,
+li {
+	font-size: 18px;
+}
+.links {
+	display: flex;
+	flex-direction: column;
+}
+.project,
+.company {
+	margin: 10px;
 }
